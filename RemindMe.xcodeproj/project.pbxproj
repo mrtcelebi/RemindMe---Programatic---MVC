@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86478420C2995ABCA21F9237 /* Pods_RemindMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8976652FD789D876F4A977 /* Pods_RemindMe.framework */; };
+		AD12A93F24EF17B600508EDB /* RemindMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD12A93E24EF17B600508EDB /* RemindMeTableViewCell.swift */; };
 		AD4626EB24EF0E47009C0728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4626EA24EF0E47009C0728 /* AppDelegate.swift */; };
 		AD4626ED24EF0E47009C0728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4626EC24EF0E47009C0728 /* SceneDelegate.swift */; };
-		AD4626EF24EF0E47009C0728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4626EE24EF0E47009C0728 /* ViewController.swift */; };
+		AD4626EF24EF0E47009C0728 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4626EE24EF0E47009C0728 /* HomeViewController.swift */; };
 		AD4626F224EF0E47009C0728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4626F024EF0E47009C0728 /* Main.storyboard */; };
 		AD4626F424EF0E48009C0728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4626F324EF0E48009C0728 /* Assets.xcassets */; };
 		AD4626F724EF0E48009C0728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4626F524EF0E48009C0728 /* LaunchScreen.storyboard */; };
+		AD46270224EF0EAD009C0728 /* Remind.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46270124EF0EAD009C0728 /* Remind.swift */; };
+		AD46270424EF0F12009C0728 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46270324EF0F12009C0728 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3809FF3318C87D0349289F13 /* Pods-RemindMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindMe.debug.xcconfig"; path = "Target Support Files/Pods-RemindMe/Pods-RemindMe.debug.xcconfig"; sourceTree = "<group>"; };
+		AD12A93E24EF17B600508EDB /* RemindMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeTableViewCell.swift; sourceTree = "<group>"; };
 		AD4626E724EF0E47009C0728 /* RemindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4626EA24EF0E47009C0728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD4626EC24EF0E47009C0728 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD4626EE24EF0E47009C0728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD4626EE24EF0E47009C0728 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AD4626F124EF0E47009C0728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD4626F324EF0E48009C0728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4626F624EF0E48009C0728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD4626F824EF0E48009C0728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD46270124EF0EAD009C0728 /* Remind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remind.swift; sourceTree = "<group>"; };
+		AD46270324EF0F12009C0728 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AD8976652FD789D876F4A977 /* Pods_RemindMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemindMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DA7B2DB099753D02062170 /* Pods-RemindMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemindMe.release.xcconfig"; path = "Target Support Files/Pods-RemindMe/Pods-RemindMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86478420C2995ABCA21F9237 /* Pods_RemindMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD12A94024EF17BD00508EDB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD12A93E24EF17B600508EDB /* RemindMeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		AD4626DE24EF0E47009C0728 = {
 			isa = PBXGroup;
 			children = (
 				AD4626E924EF0E47009C0728 /* RemindMe */,
 				AD4626E824EF0E47009C0728 /* Products */,
+				D592BCF9A301DA1C2C88F2C0 /* Pods */,
+				AE67CDD2DAA7B1E9BFE9A085 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,57 @@
 			children = (
 				AD4626EA24EF0E47009C0728 /* AppDelegate.swift */,
 				AD4626EC24EF0E47009C0728 /* SceneDelegate.swift */,
-				AD4626EE24EF0E47009C0728 /* ViewController.swift */,
-				AD4626F024EF0E47009C0728 /* Main.storyboard */,
+				AD12A94024EF17BD00508EDB /* Cell */,
+				AD46270024EF0E9A009C0728 /* Model */,
+				AD4626FE24EF0E84009C0728 /* Controllers */,
+				AD4626FF24EF0E95009C0728 /* View */,
 				AD4626F324EF0E48009C0728 /* Assets.xcassets */,
 				AD4626F524EF0E48009C0728 /* LaunchScreen.storyboard */,
 				AD4626F824EF0E48009C0728 /* Info.plist */,
 			);
 			path = RemindMe;
+			sourceTree = "<group>";
+		};
+		AD4626FE24EF0E84009C0728 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD4626EE24EF0E47009C0728 /* HomeViewController.swift */,
+				AD46270324EF0F12009C0728 /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD4626FF24EF0E95009C0728 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD4626F024EF0E47009C0728 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD46270024EF0E9A009C0728 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD46270124EF0EAD009C0728 /* Remind.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE67CDD2DAA7B1E9BFE9A085 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8976652FD789D876F4A977 /* Pods_RemindMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D592BCF9A301DA1C2C88F2C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3809FF3318C87D0349289F13 /* Pods-RemindMe.debug.xcconfig */,
+				E0DA7B2DB099753D02062170 /* Pods-RemindMe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4626FB24EF0E48009C0728 /* Build configuration list for PBXNativeTarget "RemindMe" */;
 			buildPhases = (
+				907C1D4F3E771DF9C0EABFD6 /* [CP] Check Pods Manifest.lock */,
 				AD4626E324EF0E47009C0728 /* Sources */,
 				AD4626E424EF0E47009C0728 /* Frameworks */,
 				AD4626E524EF0E47009C0728 /* Resources */,
+				9AC62DD5974BEF5E4D348A17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +200,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		907C1D4F3E771DF9C0EABFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemindMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC62DD5974BEF5E4D348A17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemindMe/Pods-RemindMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemindMe/Pods-RemindMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemindMe/Pods-RemindMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD4626E324EF0E47009C0728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD4626EF24EF0E47009C0728 /* ViewController.swift in Sources */,
+				AD46270424EF0F12009C0728 /* AddViewController.swift in Sources */,
+				AD4626EF24EF0E47009C0728 /* HomeViewController.swift in Sources */,
 				AD4626EB24EF0E47009C0728 /* AppDelegate.swift in Sources */,
+				AD46270224EF0EAD009C0728 /* Remind.swift in Sources */,
+				AD12A93F24EF17B600508EDB /* RemindMeTableViewCell.swift in Sources */,
 				AD4626ED24EF0E47009C0728 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +394,7 @@
 		};
 		AD4626FC24EF0E48009C0728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3809FF3318C87D0349289F13 /* Pods-RemindMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +413,7 @@
 		};
 		AD4626FD24EF0E48009C0728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DA7B2DB099753D02062170 /* Pods-RemindMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
